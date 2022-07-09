@@ -6,5 +6,5 @@ var Schema = mongoose.Schema;
 var newusers = new Schema({
     name:{type:String},
     email:{type:String,lowercase:true},
-    age:{type:Number,age = 0}
+    age:{type:Number,default:0}
 });
